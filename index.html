@@ -4,12 +4,19 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Spazio Pizza Delivery</title>
+  <link rel="icon" type="image/png" href="LOGO%20COMPLETA%20500X500.png">
 <style>
 :root{--bg:#050505;--card:#111;--cream:#f4d49b;--red:#e1261c;--muted:#cfc7bb}
 *{box-sizing:border-box}
 body{margin:0;background:radial-gradient(circle at 50% 0,#21180e 0,#050505 42%);color:#fff;font-family:Arial,sans-serif}
 header{text-align:center;padding:42px 20px 28px;border-bottom:1px solid #272018}
-.logo{font-family:Georgia,serif;font-size:clamp(44px,12vw,78px);font-weight:800;letter-spacing:3px;color:var(--cream);text-shadow:0 0 22px #6d4b20}
+.logo-image {
+    display: block;
+    width: min(190px, 55vw);
+    height: auto;
+    margin: 0 auto 8px;
+    filter: drop-shadow(0 0 16px #6d4b20);
+}
 .subtitle{color:var(--red);font-weight:800;letter-spacing:4px;font-size:18px}
 .stars{color:#9b6b35;letter-spacing:8px;margin:12px 0}
 .hero{max-width:1000px;margin:auto;padding:28px 18px 8px;text-align:center}
@@ -29,7 +36,11 @@ footer strong{color:var(--cream)} footer a{color:var(--cream)}
 <body>
 <header>
 <div class="stars">✦ · ✦ · ✦</div>
-<div class="logo">SPAZIO</div>
+<img
+    class="logo-image"
+    src="LOGO%20COMPLETA%20500X500.png"
+    alt="Logo oficial da Spazio Pizza Delivery"
+>
 <div class="subtitle">PIZZA DELIVERY</div>
 </header>
 <section class="hero">
